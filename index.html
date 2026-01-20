@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tycoon - Trouvez des techniciens qualifiés</title>
+    <meta name="description" content="Tycoon connecte les clients avec des techniciens professionnels pour tous vos besoins de dépannage.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        header {
+            background: #FFC40E;
+            color: #000;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 4rem 20px;
+            background: white;
+            margin: 2rem 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #000;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+
+        .download-badges {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #000;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: transform 0.2s;
+        }
+
+        .badge:hover {
+            transform: translateY(-2px);
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .feature {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .feature h3 {
+            color: #FFC40E;
+            margin-bottom: 0.5rem;
+            font-size: 1.25rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #FFC40E;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .links {
+            margin-top: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 1.75rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tycoon</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h2>Trouvez des techniciens qualifiés en quelques minutes</h2>
+            <p>Tycoon connecte les clients avec des techniciens professionnels certifiés pour tous vos besoins de dépannage et réparation.</p>
+            <div class="download-badges">
+                <a href="#" class="badge">Télécharger sur App Store</a>
+                <a href="#" class="badge">Obtenir sur Google Play</a>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🔧 Services variés</h3>
+                <p>Plomberie, électricité, serrurerie, vitrerie, menuiserie et plus encore.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📍 Géolocalisation</h3>
+                <p>Trouvez des techniciens à proximité en temps réel.</p>
+            </div>
+
+            <div class="feature">
+                <h3>💳 Paiement sécurisé</h3>
+                <p>Réglez vos interventions en toute sécurité via Stripe.</p>
+            </div>
+
+            <div class="feature">
+                <h3>💬 Chat en direct</h3>
+                <p>Communiquez directement avec votre technicien.</p>
+            </div>
+
+            <div class="feature">
+                <h3>⭐ Avis vérifiés</h3>
+                <p>Consultez les évaluations et commentaires des clients.</p>
+            </div>
+
+            <div class="feature">
+                <h3>📱 Suivi en temps réel</h3>
+                <p>Suivez l'arrivée de votre technicien en direct.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Tycoon Human - Tous droits réservés</p>
+            <div class="links">
+                <a href="privacy-policy.html">Politique de confidentialité</a>
+                <a href="terms-of-service.html">Conditions d'utilisation</a>
+                <a href="mailto:contact@tycoonapp.fr">Contact</a>
+            </div>
+            <p style="margin-top: 1rem; font-size: 0.9rem; color: #999;">
+                Tycoon Human - SASU<br>
+                99 Avenue Achille Peretti, 92200 Neuilly-sur-Seine
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
