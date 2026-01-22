@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supprimer mon compte - Tycoon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        header {
+            background: #FFC40E;
+            color: #000;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .content {
+            background: white;
+            padding: 3rem;
+            margin: 2rem 0;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+
+        .content h2 {
+            color: #000;
+            font-size: 1.75rem;
+            margin: 2rem 0 1rem 0;
+        }
+
+        .content h3 {
+            color: #FFC40E;
+            font-size: 1.25rem;
+            margin: 1.5rem 0 0.75rem 0;
+        }
+
+        .content p {
+            margin-bottom: 1rem;
+        }
+
+        .content ul, .content ol {
+            margin-left: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .alert {
+            background: #fff3cd;
+            border-left: 4px solid #FFC40E;
+            padding: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .steps {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin: 1.5rem 0;
+        }
+
+        .steps ol {
+            margin-left: 1.5rem;
+        }
+
+        .steps li {
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .contact {
+            background: #e7f3ff;
+            padding: 1.5rem;
+            border-left: 4px solid #0066cc;
+            margin: 1.5rem 0;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        footer a {
+            color: #FFC40E;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .content {
+                padding: 1.5rem;
+            }
+
+            .content h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html" style="color: #000; text-decoration: none;">Tycoon</a></h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <h2>Supprimer mon compte Tycoon</h2>
+
+            <p>Vous souhaitez supprimer votre compte Tycoon ? Cette page vous explique comment procéder et ce qui se passera après la suppression.</p>
+
+            <div class="alert">
+                <strong>⚠️ Attention :</strong> La suppression de votre compte est <strong>définitive et irréversible</strong>. Toutes vos données seront supprimées de nos serveurs.
+            </div>
+
+            <h3>Comment supprimer mon compte ?</h3>
+
+            <div class="steps">
+                <p><strong>Par email</strong></p>
+                <p>Envoyez-nous un email à <strong>contact@tycoonapp.fr</strong> avec les informations suivantes :</p>
+                <ul>
+                    <li><strong>Objet :</strong> "Demande de suppression de compte"</li>
+                    <li><strong>Numéro de téléphone</strong> associé à votre compte Tycoon</li>
+                    <li><strong>Nom complet</strong> tel qu'enregistré dans l'application</li>
+                    <li><strong>Raison de suppression</strong> (optionnel, nous aide à améliorer nos services)</li>
+                </ul>
+                <p>✅ Nous traiterons votre demande sous <strong>30 jours maximum</strong> conformément au RGPD.</p>
+                <p>✅ Vous recevrez un <strong>email de confirmation</strong> une fois la suppression effectuée.</p>
+            </div>
+
+            <div class="alert">
+                <strong>📧 Exemple d'email :</strong><br><br>
+                <em>Objet : Demande de suppression de compte</em><br><br>
+                <em>Bonjour,<br>
+                Je souhaite supprimer mon compte Tycoon.<br>
+                Numéro de téléphone : +33 6 12 34 56 78<br>
+                Nom : Jean Dupont<br>
+                Merci.</em>
+            </div>
+
+            <h3>Quelles données sont supprimées ?</h3>
+
+            <p>Lors de la suppression de votre compte, les données suivantes sont <strong>définitivement supprimées</strong> :</p>
+            <ul>
+                <li><strong>Informations de profil</strong> : nom, prénom, email, numéro de téléphone</li>
+                <li><strong>Historique des interventions</strong> : missions créées, demandes de devis</li>
+                <li><strong>Messages de chat</strong> : conversations avec les techniciens</li>
+                <li><strong>Préférences et paramètres</strong> : notifications, localisation sauvegardée</li>
+                <li><strong>Moyens de paiement</strong> : cartes bancaires enregistrées (supprimées chez Stripe)</li>
+            </ul>
+
+            <h3>Quelles données sont conservées ?</h3>
+
+            <p>Certaines données peuvent être conservées pour des raisons légales, fiscales ou de sécurité :</p>
+            <ul>
+                <li><strong>Factures et transactions</strong> : conservées 10 ans (obligation légale comptable)</li>
+                <li><strong>Logs de sécurité</strong> : conservés 1 an maximum (prévention de la fraude)</li>
+                <li><strong>Données anonymisées</strong> : statistiques d'usage (sans identification personnelle)</li>
+            </ul>
+
+            <div class="alert">
+                <strong>📌 Note importante :</strong> Si vous avez des interventions en cours ou des paiements en attente, vous devrez les finaliser avant de pouvoir supprimer votre compte.
+            </div>
+
+            <h3>Délai de suppression</h3>
+
+            <p>Après votre demande de suppression :</p>
+            <ul>
+                <li><strong>Immédiat</strong> : Votre compte est désactivé et vous ne pouvez plus vous connecter</li>
+                <li><strong>7 jours</strong> : Période de rétractation (vous pouvez annuler la suppression en nous contactant)</li>
+                <li><strong>30 jours maximum</strong> : Suppression définitive de toutes vos données personnelles</li>
+            </ul>
+
+            <h3>Conséquences de la suppression</h3>
+
+            <p>Une fois votre compte supprimé :</p>
+            <ul>
+                <li>❌ Vous ne pourrez plus accéder à l'application avec vos identifiants</li>
+                <li>❌ Votre historique d'interventions sera perdu</li>
+                <li>❌ Vos moyens de paiement enregistrés seront supprimés</li>
+                <li>✅ Vous pourrez créer un nouveau compte avec le même numéro de téléphone</li>
+            </ul>
+
+            <h3>Besoin d'aide ?</h3>
+
+            <div class="contact">
+                <p><strong>Vous avez des questions sur la suppression de votre compte ?</strong></p>
+                <p>Contactez notre support :</p>
+                <p>📧 Email : <a href="mailto:contact@tycoonapp.fr">contact@tycoonapp.fr</a><br>
+                📍 Adresse : 99 Avenue Achille Peretti, 92200 Neuilly-sur-Seine</p>
+                <p>Délai de réponse : 48h ouvrées maximum</p>
+            </div>
+
+            <h3>Vos droits RGPD</h3>
+
+            <p>Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez également des droits suivants :</p>
+            <ul>
+                <li><strong>Droit d'accès</strong> : obtenir une copie de vos données</li>
+                <li><strong>Droit de rectification</strong> : corriger vos données inexactes</li>
+                <li><strong>Droit à la portabilité</strong> : récupérer vos données dans un format structuré</li>
+                <li><strong>Droit d'opposition</strong> : s'opposer au traitement de vos données</li>
+            </ul>
+
+            <p>Pour exercer ces droits, contactez-nous à : <strong>contact@tycoonapp.fr</strong></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Tycoon Human - Tous droits réservés</p>
+            <div style="margin-top: 1rem;">
+                <a href="index.html">Accueil</a>
+                <a href="privacy-policy.html">Politique de confidentialité</a>
+                <a href="terms-of-service.html">Conditions d'utilisation</a>
+                <a href="delete-account.html">Supprimer mon compte</a>
+                <a href="mailto:contact@tycoonapp.fr">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
